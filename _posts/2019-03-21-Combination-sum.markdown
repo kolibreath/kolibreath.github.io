@@ -1,4 +1,13 @@
+---
+layout: post
+title:  "Combination"
+date:   2019-03-20 17:34:43 +0800
+categories: 二刷leetcode
+---
+
+
 # Combination 
+
 [原题](https://leetcode.com/problems/combinations/)
 
 又是一个组合问题 这种题可以使用DFS 解决
@@ -16,7 +25,7 @@
 更好的方法是：因为i 是在最后加入这个List的，可以直接通过``pollLast()``丢掉最后一个值
 然后``list<list<Integer>>``中,整个``List<List<Integer>>``容器内部的item都是引用，如果反复操作内部的item引用，会在意料之外的改变整个``List<List<Integer>``容器内容.
 
-```
+````
 c class Solution {
         public List<List<Integer>> combine(int n, int k) {
             List<Integer> out = new LinkedList<>();
@@ -41,4 +50,5 @@ c class Solution {
             }
         }
     }
-```
+    
+````
