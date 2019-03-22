@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "常见算法"
+title:  "Java中常见算法"
 date:   2019-03-20 17:34:43 +0800
 categories: 二刷leetcode
 ---

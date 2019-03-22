@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "字母排序Java 中常用API"
+title:  "Java 中常用API"
 date:   2019-03-20 18:00:43 +0800
 categories: 二刷leetcode
 ---

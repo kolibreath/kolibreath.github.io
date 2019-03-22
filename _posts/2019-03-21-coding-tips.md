@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Java 中常见的数据结构"
-date:   2019-03-20 18:00:43 +0800
+title:  "编程技巧"
+date:   2019-03-22 07:00:43 +0800
 categories: 二刷leetcode
 ---
 # Coding tips 
