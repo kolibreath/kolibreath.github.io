@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java 中常见的数据结构和算法"
+title:  "字母排序Java 中常用API"
 date:   2019-03-20 18:00:43 +0800
 categories: 二刷leetcode
 ---
@@ -8,8 +8,11 @@ categories: 二刷leetcode
 # Java 中常见的数据结构和算法
 
 > 按字母排序
+
 ## A
+
 - Arrays.sort
+<br>
 使用快速排序的方法排序数组
 ![](http://wx2.sinaimg.cn/large/d6225d36ly1fzt62h1at7j235s0os473.jpg)<br>
 有多种3重载方法基本类型数组重载没有问题
@@ -46,9 +49,11 @@ return 0表示o1 == o2
 ## F
 ## G
 - Graph
+<br>
 二维数组dfs
 举两个题作为例子
-
+    - [Number of Lands](./2019-03-22-Word-Search.md)
+    - [Word Search ](./2019-03-22-Numbers-of-Lands.md)
 ## H
 HashTable 和 HashMap
 HashTable所有的功能都可以被HashMap代替。

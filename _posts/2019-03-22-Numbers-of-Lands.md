@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Word Search"
-date:   2019-03-22 10:10:43 +0800
+date:   2019-03-22 8:10:43 +0800
 categories: 二刷leetcode
 ---
 # Word Search
