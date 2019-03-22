@@ -378,7 +378,7 @@ class Solution {
 ```
 
 - 去除sorted 链表中的重复的元素：
-递归，由下往上分析
+递归，由下往上分析z
 ```
 class Solution {
         public ListNode deleteDuplicates(ListNode real) {

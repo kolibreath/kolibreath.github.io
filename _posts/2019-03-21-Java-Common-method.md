@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java 中常见的数据结构"
+title:  "Java 中常见的数据结构和算法"
 date:   2019-03-20 18:00:43 +0800
 categories: 二刷leetcode
 ---
@@ -45,6 +45,10 @@ return 0表示o1 == o2
 ## E
 ## F
 ## G
+- Graph
+二维数组dfs
+举两个题作为例子
+
 ## H
 HashTable 和 HashMap
 HashTable所有的功能都可以被HashMap代替。
