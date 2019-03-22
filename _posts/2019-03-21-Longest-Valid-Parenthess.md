@@ -6,6 +6,7 @@ categories: 二刷leetcode
 ---
 # Longest Valid Parenthess
 
+[原题地址](https://leetcode.com/problems/longest-valid-parentheses/)
 最长的有效括号序列：
 
 Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.

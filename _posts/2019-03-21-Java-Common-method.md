@@ -46,6 +46,8 @@ return 0表示o1 == o2
 ## F
 ## G
 ## H
+HashTable 和 HashMap
+HashTable所有的功能都可以被HashMap代替。
 ## I
 ## J
 ## k

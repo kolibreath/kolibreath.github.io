@@ -321,11 +321,9 @@ private void backtrack(List<List<Integer>> list , List<Integer> tempList, int []
 
 *****
 # 链表：
-链表删除某个节点：
+- 删除：
 使用递归解决
-```
 
-```
 iterative:
 ```
 public class Solution {
@@ -347,7 +345,7 @@ public class Solution {
 ```
 
 
-翻转链表：
+- 翻转：
 递归完成
 ```
 class Solution {
@@ -377,4 +375,94 @@ class Solution {
         }
     }
 
+```
+
+- 去除sorted 链表中的重复的元素：
+递归，由下往上分析
+```
+class Solution {
+        public ListNode deleteDuplicates(ListNode real) {
+            if(real == null || real.next == null)
+                return real;
+            real.next = deleteDuplicates(real.next);
+            return real.val == real.next.val ? real.next : real;
+        }
+    }
+
+```
+## 二叉树
+
+
+- preorder
+````
+ class Solution {
+        public List<Integer> preorder(Node root) {
+            if(root == null)
+                return new ArrayList<>();
+            List<Integer> result = new ArrayList<>();
+            preorder(root,result);
+
+            return result;
+        }
+
+        public void preorder(Node root, List<Integer> list){
+            if(root == null)
+                return;
+            list.add(root.val);
+            if(root.children!=null)
+                for(int i=0;i<root.children.size();i++){
+                    preorder(root.children.get(i),list);
+                }
+        }
+    }
+````
+
+- postorder
+当然是要等所有的children节点完成遍历再加入list
+```
+class Solution {
+        public List<Integer> postorder(Node root) {
+            if(root == null)
+                return new ArrayList<>();
+            
+            List<Integer> list = new ArrayList<>();
+            postorder(root,list);
+            return list;
+        }
+
+        public void postorder(Node root, List<Integer> list){
+            if(root == null) {
+                return;
+            }
+            if(root.children!=null) {
+                for (int i = 0; i < root.children.size(); i++) {
+                    postorder(root.children.get(i), list);
+                }
+            }
+            list.add(root.val);
+        }
+    }
+```
+
+- 同理 preorder的非递归版本
+使用的是stack保存中间的情况，然后需要从节点中逆序输入node
+```
+  class Solution {
+        public List<Integer> postorder(Node root) {
+            if (root == null)
+                return new ArrayList<>();
+            List<Integer> list = new ArrayList<>();
+            Stack<Node> stack = new Stack<>();
+            stack.push(root);
+
+            while (!stack.isEmpty()) {
+                Node node = stack.pop();
+                list.add(node.val);
+                for (int i = node.children.size() - 1; i >= 0; i--) {
+                    stack.push(node.children.get(i));
+                }
+            }
+            return list;
+        }
+    }
 ```
