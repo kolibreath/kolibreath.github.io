@@ -4,6 +4,7 @@ title:  "编程技巧"
 date:   2019-03-22 07:00:43 +0800
 categories: 二刷leetcode
 ---
+
 # Coding tips 
 
 
@@ -11,6 +12,9 @@ categories: 二刷leetcode
 String.format("%03d",s)
 
 - 使用Java list 判断
+
+进行判断：
+<br>
 ```
 list.getFirst()！= null
 
@@ -21,17 +25,21 @@ list.size() != 0
 
 进行合理替换
 
-- 不要使用可变长的list 去作为for循环的guard 如图
-```
+- 不要使用可变长的list 去作为for循环的guard 
+<br>
+如图
+
+````
  int order[] = new int[stack.size()];
             for (int i = 0; i < order.length ; i++) {
                 order[i] = stack.pop();
             }
 
-```
+````
 
 
 # Java的一个输入输出挂
+<br>
 ```
  public static class Input{
         private BufferedReader reader;

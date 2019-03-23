@@ -52,8 +52,8 @@ return 0表示o1 == o2
 <br>
 二维数组dfs
 举两个题作为例子
-    - [Number of Lands](./2019-03-22-Word-Search.md)
-    - [Word Search ](./2019-03-22-Numbers-of-Lands.md)
+    - [Number of Lands](https://kolibreath.github.io/%E4%BA%8C%E5%88%B7leetcode/2019/03/22/Word-Search.html)
+    - [Word Search ](https://kolibreath.github.io/%E4%BA%8C%E5%88%B7leetcode/2019/03/22/Numbers-of-Lands.html)
 ## H
 HashTable 和 HashMap
 HashTable所有的功能都可以被HashMap代替。
