@@ -5,9 +5,19 @@ date:   2019-4-13 17:34:43 +0800
 categories: 考研英语
 ---
 
+# 文章分类
+- 工作和生活
 
 # 美好的句子
-1. Consciouness, a wonderful ability to reflect, ponder and choose in mankind's greatest evolutionary achievements.
+1. Consciouness, ``a wonderful ability`` to reflect, ``ponder`` and choose in mankind's greatest evolutionary achievements.
+2. leisure time was one seen as the ``indicator`` of high social status, something attainable only forr those at the top.
+3. It is the season for some ``frantic`` last-minute math - across the country, employess ``of all stripes`` are counting backward ``in an attempt`` to figure out just how much paid time-off  left in their reserves.
+4. The Ebro Delta, famous as a battle ground during the Spanish Cilvil ``War``, is now a setting for a different ``contest``, one that is putting rice farmers against two enemies: the rice-eating giant apple snail, and the rising sea.
+war和contest 对仗，很牛逼！
+5. Our own decision-making ablilities can be depleted over the course of the day causing indicision or poor choices, but choosing ``on behalf of someone else`` is an enjoyable task that doen't suffer the same ``pitfalls``. 
+动名词做主语
+6. By taking upon the role of adviser rather that decision maker, one does not suffer from the ``consequences`` of decision fatigue.
+one 做后置定语从句连接词 省略 who
 
 # 亮眼的动词/形容词/表达
 可以用在小作文的图表题中
@@ -34,8 +44,14 @@ categories: 考研英语
 15. revolutionise = change greately = change dramatically<br>
 使 ... 极大改变 
 16. the safety of the product is ``exceptional``
-
-
+17. But if the confrontation has crystallized in this latest battel, it may already be heading towards a predictable conclusion: In the long run, the tech companies arer destined to emerge victorious.
+18. ...not to mention ...  更不用说
+19. That's when it dawned to her that ...她突然意识到...
+20. challenge of "sharenting", a new term for parents' online shariinig about children ...  同位语
+21. These errors no more invalidate Ms.Merian's work that do well-known misconceptions published by Charles Darwin and Issac Newton. 倒装句
+22.  harness one foe against another 以毒攻毒
+23. seeking varieties 寻找可能性 = looking for possibilities
+24. the pace of improvement has slowed markably.
 # 小作文
 ## 图表类型
 1. to take g glance at sth<br>
@@ -59,4 +75,4 @@ categories: 考研英语
 遭到某人的反对
 9. we cannot neglect ...
 10. which is a harmful phenomenon that will spread the atmospher of dishonesty and damage students integrity.
-
+11. But that's the negative side, with risks that must be balanced against the benefits of sharing. 
